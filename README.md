@@ -3,8 +3,8 @@
 ## Título da atividade
 Calculadora no Flowgorithm — Desenvolvimento de Algoritmo e Pensamento Computacional
 
-## Nome do aluno
-_(preencha aqui com seu nome completo)_
+## Nome Completo:
+Gabriel Valois Rodrigues
 
 ## Objetivo do programa
 Desenvolver, utilizando o Flowgorithm, uma calculadora com 20 funções diferentes, aplicando os conceitos de lógica de programação, entrada e saída de dados, variáveis, operadores e estruturas de decisão e repetição.
