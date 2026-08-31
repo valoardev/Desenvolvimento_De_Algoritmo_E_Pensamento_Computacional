@@ -1,7 +1,7 @@
 //Integrantes:
 //Bernardo Kopp
 //Gabriel Valois
-//Piêtro Bittencourt
+//PiÃªtro Bitencourt
 //Zamorano Fragoso
 
 #include <stdio.h>
@@ -87,10 +87,10 @@ void calcularImc() {
 	printf("Digite o seu peso em Quilogramas: "); 
 	scanf("%lf", &peso); 
 
-	// Cálculo 
-	imc = peso / pow(altura, 2); //pow é uma função da math.h para calcular potenciacão 	 
+	// CÃ¡lculo 
+	imc = peso / pow(altura, 2); //pow Ã© uma funÃ§Ã£o da math.h para calcular potenciacÃ£o 	 
 
-	// Tabela de Verificação 
+	// Tabela de VerificaÃ§Ã£o 
 	if (imc < 18.5){ 
 	qualificacao = "Abaixo do Peso Normal"; 
 	} else if (imc <= 24.9) { 
@@ -185,7 +185,7 @@ void calculadoraSimples() {
             break;
 
         default: 
-            printf("Opção invalida!\n"); 
+            printf("OpÃ§Ã£o invalida!\n"); 
             break; 
     } 
 } 
@@ -203,7 +203,7 @@ void conversorTemperatura() {
 	printf("Para qual temperatura deseja converter Fahrenheit[F] ou Kelvin[K]: "); 
 	scanf(" %c",&opcaoConversor); 
 
-	// Cálculo 
+	// CÃ¡lculo 
 	if (opcaoConversor == 'K'){ 
 		temperaturaConvertida = temperaturaCelsius + 273.15; 
 	} else { 
@@ -222,7 +222,7 @@ void parOuImpar(){
 	printf("Digite um numero: ");
 	scanf("%d", &numero); 	 
 
-	//Verificando se o número é par ou ímpar 
+	//Verificando se o nÃºmero Ã© par ou Ã­mpar 
 	if (numero % 2 == 0) { 
 		printf("O numero %d eh PAR. \n", numero); 
 	} else { 
@@ -242,7 +242,7 @@ void calcularDesconto() {
 	printf("Digite o valor do desconto em percentual: "); 
 	scanf("%lf", &desconto); 
 
-	//Cálculo 
+	//CÃ¡lculo 
 	valorFinal = valorInicial - (valorInicial * desconto/100); 
 
 	//Resultado 
@@ -278,14 +278,14 @@ void conversorDeUnidades(){
 	printf("Digite um valor em metros: "); 
 	scanf("%lf", &metros); 
 
-	//Realizando as conversões 
+	//Realizando as conversÃµes 
 	milimetros = metros * 1000; 
 	centimetros = metros * 100; 
 	decimetros = metros * 10; 
 	hectometros = metros / 100; 
 	quilometros = metros / 1000; 
 
-	//Saída dos resultados 
+	//SaÃ­da dos resultados 
 	printf("\nMedidas convertidas: \n"); 
 	printf("Milimetros: %.2lf mm\n", milimetros); 
 	printf("Centimetros: %.2lf cm\n", centimetros); 
