@@ -25,20 +25,21 @@ Projeto de uma calculadora desenvolvida utilizando o **Flowgorithm**, contendo 2
 
 O projeto aborda conceitos como:
 
-* Operações matemáticas;
-* Cálculo de IMC;
-* Cálculo de áreas e perímetros;
-* Porcentagem;
-* Regra de três;
-* Juros simples e compostos;
-* Conversão de unidades e temperaturas;
-* Velocidade média;
-* Consumo de combustível;
-* Cálculo de idade;
-* Fatorial;
-* Entre outras operações.
+- Operações matemáticas;
+- Cálculo de IMC;
+- Cálculo de áreas e perímetros;
+- Porcentagem;
+- Regra de três;
+- Juros simples e compostos;
+- Conversão de unidades e temperaturas;
+- Velocidade média;
+- Consumo de combustível;
+- Cálculo de idade;
+- Fatorial;
+- Entre outras operações.
 
-📁 **Local:** `calculadora-flowgorithm/`
+📁 **Pasta:** [`calculadora-flowgorithm/`](./calculadora-flowgorithm/)  
+📖 **README do projeto:** [`Ver documentação →`](./calculadora-flowgorithm/README.md)
 
 ## 🎯 Objetivo
 
