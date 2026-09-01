@@ -25,21 +25,45 @@ Projeto de uma calculadora desenvolvida utilizando o **Flowgorithm**, contendo 2
 
 O projeto aborda conceitos como:
 
-- Operações matemáticas;
-- Cálculo de IMC;
-- Cálculo de áreas e perímetros;
-- Porcentagem;
-- Regra de três;
-- Juros simples e compostos;
-- Conversão de unidades e temperaturas;
-- Velocidade média;
-- Consumo de combustível;
-- Cálculo de idade;
-- Fatorial;
-- Entre outras operações.
+* Operações matemáticas;
+* Cálculo de IMC;
+* Cálculo de áreas e perímetros;
+* Porcentagem;
+* Regra de três;
+* Juros simples e compostos;
+* Conversão de unidades e temperaturas;
+* Velocidade média;
+* Consumo de combustível;
+* Cálculo de idade;
+* Fatorial;
+* Entre outras operações.
 
-📁 **Pasta:** [`calculadora-flowgorithm/`](./calculadora-flowgorithm/)  
-📖 **README do projeto:** [`Ver documentação →`](./calculadora-flowgorithm/README.md)
+📁 **Pasta:** [`calculadora_em_flowgorithm/`](./calculadora_em_flowgorithm/)
+📖 **README do projeto:** [`Ver documentação →`](./calculadora_em_flowgorithm/README.md)
+
+---
+
+### 💻 Calculadora — C
+
+Projeto de uma calculadora desenvolvida em **linguagem C**, utilizando funções para organizar diferentes operações e cálculos.
+
+O projeto aborda conceitos como:
+
+* Funções;
+* Operações matemáticas;
+* Cálculo de IMC;
+* Cálculo de áreas;
+* Conversão de temperatura;
+* Verificação de números pares e ímpares;
+* Cálculo de descontos;
+* Comparação de valores;
+* Conversão de unidades;
+* Estruturas condicionais;
+* Estrutura `switch`;
+* Entrada e saída de dados.
+
+📁 **Pasta:** [`calculadora_em_c/`](./calculadora_em_c/)
+📖 **README do projeto:** [`Ver documentação →`](./calculadora_em_c/README.md)
 
 ## 🎯 Objetivo
 
