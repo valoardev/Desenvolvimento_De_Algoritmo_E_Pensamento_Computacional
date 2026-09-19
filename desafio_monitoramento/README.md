@@ -65,9 +65,9 @@ Digite o limite e pressione **Enter**; as leituras seguintes são automáticas.
 
 | Cenário | Entrada e resultado observado |
 | --- | --- |
-| **1 — Entradas inválidas** | `abc`, `-300`, `50abc`, `50,5`, `nan` e `inf` foram rejeitados. Após informar `100`, o programa concluiu 20 leituras. |
-| **2 — Acima, sem três consecutivas** | Com limite `100`, as leituras 6, 9 e 19 ficaram acima. As seguintes zeraram a sequência: encerramento normal, média **−81,59 °C** e **15%** acima do limite. |
-| **3 — Parada por proteção** | Com limite `-200`, as leituras 6, 7 e 8 formaram três alertas consecutivos. Parada na 8ª leitura, média **−98,96 °C** e **62,50%** acima do limite. |
+| **1 — Entradas inválidas** | `abc`, `-300`, `50abc`, `50,5` e `inf` foram rejeitados. Após informar `100`, o programa concluiu 20 leituras. |
+| **2 — Acima, sem três consecutivas** | Com limite `100`, as leituras 1, 2, 8 e 11 ficaram acima. As seguintes zeraram a sequência: encerramento normal, média **13,59 °C** e **20%** acima do limite. |
+| **3 — Parada por proteção** | Com limite `20`, as leituras 7, 8 e 9 formaram três alertas consecutivos. Parada na 10ª leitura, média **17,96 °C** e **44,44%** acima do limite. |
 
 📁 **Evidências:** [`evidencias/`](./evidencias/)
 
