@@ -81,7 +81,7 @@ O projeto aborda conceitos como:
 * 📊 Relatório com média, maior e menor temperatura, quantidade de leituras e quantidade e percentual acima do limite.
 
 📁 **Pasta:** [`desafio_monitoramento/`](./desafio_monitoramento/)  
-📖 **README do projeto:** [Ver documentação →](./desafio_monitoramento/README.md)
+📖 **README do projeto:** [`Ver documentação →`](./desafio_monitoramento/README.md)
 
 ## 🎯 Objetivo
 
