@@ -65,6 +65,24 @@ O projeto aborda conceitos como:
 📁 **Pasta:** [`calculadora_em_c/`](./calculadora_em_c/)
 📖 **README do projeto:** [`Ver documentação →`](./calculadora_em_c/README.md)
 
+---
+
+### 🌡️ Monitoramento Industrial — C
+
+Simulação de um sensor de temperatura em **linguagem C**, com até **20 leituras aleatórias** e encerramento por proteção após **três temperaturas consecutivas acima do limite** definido pelo usuário.
+
+O projeto aborda conceitos como:
+
+* 🔁 Laços `while` e `do...while`;
+* 🧩 Organização do código em funções;
+* ⌨️ Validação do limite informado;
+* 🎲 Geração de temperaturas aleatórias;
+* 🚨 Contagem de alertas consecutivos;
+* 📊 Relatório com média, maior e menor temperatura, quantidade de leituras e quantidade e percentual acima do limite.
+
+📁 **Pasta:** [`desafio_monitoramento/`](./desafio_monitoramento/)  
+📖 **README do projeto:** [Ver documentação →](./desafio_monitoramento/README.md)
+
 ## 🎯 Objetivo
 
 Utilizar os conhecimentos adquiridos na disciplina para desenvolver soluções computacionais de forma organizada, aplicando conceitos de lógica, algoritmos e pensamento computacional.
