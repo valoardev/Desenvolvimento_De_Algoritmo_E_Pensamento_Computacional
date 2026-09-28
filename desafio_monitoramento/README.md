@@ -69,7 +69,7 @@ Digite o limite e pressione **Enter**; as leituras seguintes são automáticas.
 | **2 — Acima, sem três consecutivas** | Com limite `100`, as leituras 1, 2, 8 e 11 ficaram acima. As seguintes zeraram a sequência: encerramento normal, média **13,59 °C** e **20%** acima do limite. |
 | **3 — Parada por proteção** | Com limite `20`, as leituras 7, 8 e 9 formaram três alertas consecutivos. Parada na 10ª leitura, média **17,96 °C** e **44,44%** acima do limite. |
 
-📁 **Evidências:** [`evidencias/`](./evidencias/)
+📁 **Evidências:** [`Visualizar →`](./evidencias/)
 
 ---
 
