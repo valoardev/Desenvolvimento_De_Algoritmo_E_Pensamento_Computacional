@@ -14,6 +14,7 @@ Entre os principais conceitos trabalhados estão:
 * ➕ Operadores aritméticos e lógicos
 * 🔀 Estruturas condicionais
 * 🔁 Estruturas de repetição
+* 🔢 Arrays (vetores)
 * 📊 Processamento e manipulação de dados
 * 🧩 Desenvolvimento e organização de algoritmos
 
@@ -82,6 +83,25 @@ O projeto aborda conceitos como:
 
 📁 **Pasta:** [`desafio_monitoramento/`](./desafio_monitoramento/)  
 📖 **README do projeto:** [`Ver documentação →`](./desafio_monitoramento/README.md)
+
+---
+
+### 🔢 Análise de Vetor — C
+
+Programa em **linguagem C** que lê e armazena **20 números inteiros** em um vetor, realiza cálculos e apresenta os resultados de forma organizada.
+
+O projeto aborda conceitos como:
+
+* 🔢 Arrays (vetores) de inteiros;
+* 🔁 Laços `for` para preencher e percorrer o vetor;
+* ➕ Soma dos elementos múltiplos de 3;
+* 📊 Média dos números pares, evitando divisão por zero;
+* 🔍 Contagem de positivos e negativos, sem incluir o zero;
+* ↕️ Identificação do maior e do menor valor;
+* 📋 Exibição de todos os elementos armazenados.
+
+📁 **Pasta:** [`atividade_vetor/`](./atividade_vetor/)  
+📖 **README do projeto:** [`Ver documentação →`](./atividade_vetor/README.md)
 
 ## 🎯 Objetivo
 
