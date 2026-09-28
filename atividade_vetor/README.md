@@ -74,5 +74,5 @@ Elementos do vetor: -9 | -6 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 
 ## 📸 Evidência de execução
 
-📖 **Evidências:** [`Visualizar →`](./atividade_vetor/evidencias)
+📖 **Evidências:** [`Visualizar →`](./evidencias)
 
