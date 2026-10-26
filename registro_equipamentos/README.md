@@ -204,15 +204,6 @@ Além de praticar **entrada e saída de dados**, o programa trabalha com **valid
 
 ---
 
-## 👥 Integrantes
-
-* **Bernardo Kopp**
-* **Gabriel Valois**
-* **Piêtro Bitencourt**
-* **Zamorano Fragoso**
-
----
-
 ## 📚 Disciplina
 
 **Desenvolvimento de Algoritmo e Pensamento Computacional**  
