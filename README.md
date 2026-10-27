@@ -103,6 +103,29 @@ O projeto aborda conceitos como:
 📁 **Pasta:** [`atividade_vetor/`](./atividade_vetor/)  
 📖 **README do projeto:** [`Ver documentação →`](./atividade_vetor/README.md)
 
+---
+
+### 🖥️ Registro de Equipamentos — C
+
+Programa desenvolvido em **linguagem C** para cadastrar equipamentos, armazenando o nome, o código de identificação (ID) e o número da seção em que cada equipamento está localizado.
+
+Os registros são salvos no arquivo de texto `equipamentos.txt`, permitindo preservar os cadastros anteriores e consultar os equipamentos registrados.
+
+O projeto aborda conceitos como:
+
+- 📝 Cadastro de equipamentos com nome, ID e seção;
+- 🔢 Validação do ID, aceitando números entre 1000 e 9999;
+- 📍 Validação do número da seção, aceitando valores entre 100 e 999;
+- ⌨️ Entrada de dados com `scanf()`, `fgets()` e `getchar()`;
+- 🔁 Estruturas de repetição `while` e `do...while`;
+- 🔀 Estruturas condicionais `if`;
+- 💾 Manipulação de arquivos com `FILE`, `fopen()`, `fprintf()` e `fclose()`;
+- 📖 Leitura e exibição dos registros armazenados com `fgets()`;
+- 🛡️ Verificação de erros na abertura de arquivos.
+
+📁 **Pasta:** [`registro_equipamentos/`](./registro_equipamentos/)  
+📖 **README do projeto:** [`Ver documentação →`](./registro_equipamentos/README.md)
+
 ## 🎯 Objetivo
 
 Utilizar os conhecimentos adquiridos na disciplina para desenvolver soluções computacionais de forma organizada, aplicando conceitos de lógica, algoritmos e pensamento computacional.
