@@ -126,6 +126,30 @@ O projeto aborda conceitos como:
 📁 **Pasta:** [`registro_equipamentos/`](./registro_equipamentos/)  
 📖 **README do projeto:** [`Ver documentação →`](./registro_equipamentos/README.md)
 
+---
+
+### 🏥 Gerenciamento de Senhas de Atendimento — C
+
+Sistema desenvolvido em **linguagem C** para simular o atendimento em uma clínica de especialidades médicas, com cadastro de usuários, emissão de senhas e organização da fila por prioridade.
+
+O projeto aborda conceitos como:
+
+* 🧱 Estruturas `struct` e tipos definidos com `typedef`;
+* 🔢 Vetores para armazenar usuários e senhas durante a execução;
+* 🔍 Consulta de cadastros por ID;
+* 🎟️ Geração de senhas normais, preferenciais e urgentes;
+* 🚦 Atendimento na ordem **U → P → N**, preservando a ordem de emissão dentro de cada categoria;
+* 🩺 Registro da descrição e finalização dos atendimentos;
+* 📋 Consulta de atendimentos concluídos;
+* 🧩 Organização do código em funções;
+* 🔁 Laços `for` e `while`, condições e menu com `switch`;
+* 🧪 Testes documentados com imagens das execuções no terminal.
+
+**Armazenamento:** os dados ficam apenas na memória e são perdidos ao encerrar o programa.
+
+📁 **Pasta:** [`gerenciamento_senhas/`](./gerenciamento_senhas/)  
+📖 **README do projeto:** [`Ver documentação →`](./gerenciamento_senhas/README.md)
+
 ## 🎯 Objetivo
 
 Utilizar os conhecimentos adquiridos na disciplina para desenvolver soluções computacionais de forma organizada, aplicando conceitos de lógica, algoritmos e pensamento computacional.
