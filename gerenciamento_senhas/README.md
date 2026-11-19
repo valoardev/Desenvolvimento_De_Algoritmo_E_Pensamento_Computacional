@@ -227,18 +227,6 @@ Os cenários foram realizados na mesma execução: Lucas Almeida, de 25 anos, re
 
 ---
 
-## ⚠️ Limitações da versão atual
-
-* **Sem persistência:** os dados são perdidos ao encerrar o programa e os contadores recomeçam na próxima execução.
-* **Capacidade fixa:** o limite de 100 senhas inclui as atendidas; finalizar um atendimento não libera uma posição.
-* **Validação numérica básica:** entradas como `25abc` e `25.5` podem ser interpretadas como `25`. Valores fora da capacidade de `int` não são tratados de forma confiável.
-* **Textos limitados:** o nome comporta até 99 bytes de texto e a descrição até 499, além do terminador. O excedente é descartado sem aviso; letras acentuadas podem ocupar mais de um byte.
-* **Senhas repetidas por usuário:** uma mesma pessoa pode retirar várias senhas enquanto ainda aguarda atendimento.
-* **Descrição obrigatória:** uma linha vazia faz a leitura continuar esperando texto, sem mensagem adicional.
-* **Prioridade fixa:** o próximo atendimento é escolhido automaticamente; não há seleção manual de outra senha nem alternância entre categorias.
-
----
-
 ## 📁 Arquivos do projeto
 
 | Caminho | Conteúdo |
