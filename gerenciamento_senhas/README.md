@@ -315,7 +315,6 @@ A versão foi compilada com `-std=c11 -Wall -Wextra -Wpedantic -Werror`, sem avi
 | [`atendimento.h`](./atendimento.h) | Submenu e operações de atendimento. |
 | [`painel.h`](./painel.h) | Painel de chamada e contadores. |
 | [`README.md`](./README.md) | Documentação do projeto. |
-| [`LEIA-ME.txt`](./LEIA-ME.txt) | Instruções resumidas de uso, compilação e regras. |
 | [`imagens/`](./imagens/) | Cinco imagens atualizadas dos testes. |
 
 ---
