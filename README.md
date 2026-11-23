@@ -130,22 +130,33 @@ O projeto aborda conceitos como:
 
 ### 🏥 Gerenciamento de Senhas de Atendimento — C
 
-Sistema desenvolvido em **linguagem C** para simular o atendimento em uma clínica de especialidades médicas, com cadastro de usuários, emissão de senhas e organização da fila por prioridade.
+Sistema desenvolvido em **linguagem C** para simular o atendimento em uma clínica de especialidades médicas, com cadastro de usuários, emissão de senhas, painel de chamada e organização da fila por prioridade.
+
+O **cadastro é separado da retirada de senha**: o usuário recebe um ID e pode reutilizá-lo para novas retiradas após a finalização do atendimento. As consultas, chamadas, finalizações e o histórico ficam reunidos em um **submenu de atendimento**.
 
 O projeto aborda conceitos como:
 
-* 🧱 Estruturas `struct` e tipos definidos com `typedef`;
+* 🧱 Estruturas `struct`, tipos definidos com `typedef` e estados com `enum`;
 * 🔢 Vetores para armazenar usuários e senhas durante a execução;
-* 🔍 Consulta de cadastros por ID;
-* 🎟️ Geração de senhas normais, preferenciais e urgentes;
-* 🚦 Atendimento na ordem **U → P → N**, preservando a ordem de emissão dentro de cada categoria;
-* 🩺 Registro da descrição e finalização dos atendimentos;
-* 📋 Consulta de atendimentos concluídos;
-* 🧩 Organização do código em funções;
-* 🔁 Laços `for` e `while`, condições e menu com `switch`;
-* 🧪 Testes documentados com imagens das execuções no terminal.
+* 📍 Passagem de dados por ponteiros, reunidos na estrutura `Sistema`;
+* 🔍 Cadastro e consulta de usuários por ID, sem recadastrar na retirada de senha;
+* 🎟️ Emissão de senhas normais, preferenciais e urgentes conforme idade e condições cadastradas;
+* 🚦 Atendimento na ordem **U → P → N**, preservando a ordem de emissão dentro de cada categoria (FIFO);
+* 🔄 Controle dos estados **aguardando**, **em atendimento** e **finalizada**;
+* 🛡️ Bloqueio de senhas simultâneas para o mesmo usuário e de mais de um atendimento ativo;
+* 🩺 Chamada de pacientes, registro da descrição e finalização dos atendimentos;
+* 🖥️ Painel com senha atual, próximas senhas e contadores por categoria;
+* 📋 Consulta de atendimentos concluídos, preservando o histórico;
+* 🧩 Modularização em `main.c`, `registro.h`, `classificacao.h`, `atendimento.h` e `painel.h`;
+* ⌨️ Leitura com `fgets()`, conversão com `strtol()` e validação das entradas;
+* 🔁 Laços `for` e `while`, condições e menus com `switch/case`;
+* 🧪 Cinco cenários de teste documentados com imagens de saídas reais da versão atual.
 
-**Armazenamento:** os dados ficam apenas na memória e são perdidos ao encerrar o programa.
+**Menu principal:** cadastrar usuário, retirar senha, atendimento, mostrar painel de chamada e sair.
+
+**Testes documentados:** cadastro, ID inexistente, fila por prioridade, registro de atendimento e consulta do histórico.
+
+**Armazenamento:** até **100 cadastros** e **100 senhas por execução**, com limites independentes. Os dados ficam apenas na memória e são perdidos ao encerrar o programa.
 
 📁 **Pasta:** [`gerenciamento_senhas/`](./gerenciamento_senhas/)  
 📖 **README do projeto:** [`Ver documentação →`](./gerenciamento_senhas/README.md)
